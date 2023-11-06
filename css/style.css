@@ -221,7 +221,7 @@ a{
 /* Info container*/
 
 .info-container{
-    width: auto;
+    width: 100%;
     border-radius: 100px 0px;
     background: var(--color-secundary);
     text-align: center;
@@ -349,8 +349,8 @@ a{
 
 }
 .stars{
-    width: 27.156px;
-    height: 27.16px;
+    width: 27px;
+    height: 27px;
     fill: #343a40;
 }
 
@@ -572,15 +572,11 @@ position: absolute;
 
 
 
+/* responsive */
 
 
 
-/* responsive  */
-
-
-
-
-@media(max-width: 1000px) {
+@media(max-width: 800px) {
 
 	.headerPrincipal-nav-link {
 		padding: 10px;
@@ -615,10 +611,11 @@ position: absolute;
     }
 
     .tzuru{
-        width: 500px;
+        width: 200px;
         padding: 35px;
         margin: 20px;
         transition: 1s;
+        min-width: 200px;
     }
 
     .contaner__principal-info {
@@ -638,14 +635,17 @@ position: absolute;
         transition: 1s;
     }
     .titulo{
-        width: 300px;
+        width: 250px;
     }
     .title__import{
-        font-size: 45px;
+        font-size: 33px;
     }
     .img__person {
         width: 300px;
         transition: 1s;
+    }
+    .title{
+        font-size: 33px;
     }
 	
 
@@ -679,3 +679,18 @@ position: absolute;
 }
 
 
+
+
+
+@media(min-width: 1000px) {
+	
+
+    .tzuru{
+        width: 500px;
+        padding: 35px;
+        margin: 20px;
+        transition: 1s;
+        min-width: 200px;
+    }
+    
+}
