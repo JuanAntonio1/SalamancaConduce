@@ -92,7 +92,6 @@ a{
     display: flex;
     flex-direction: row-reverse;
     align-content: center;
-    justify-content: center;
     align-items: center;
 }
  
@@ -576,7 +575,7 @@ position: absolute;
 
 
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
 
 	.headerPrincipal-nav-link {
 		padding: 10px;
@@ -687,6 +686,7 @@ position: absolute;
 
 @media(min-width: 1000px) {
 	
+  
 
     .tzuru{
         width: 500px;
