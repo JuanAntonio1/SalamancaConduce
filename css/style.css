@@ -648,7 +648,9 @@ position: absolute;
     .title{
         font-size: 33px;
     }
-	
+	.txt{
+        font-weight: 400;
+    }
 
     .container__info-app{
         flex-direction: column;
