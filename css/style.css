@@ -567,8 +567,6 @@ background: var(--color-secundary);
 }
 
 
-
-
 /* responsive */
 
 
@@ -594,7 +592,6 @@ background: var(--color-secundary);
         flex-direction: column;
         transition: 1s;
     }
-    /* 100% */
 
     .elipce{
         align-items: center;
