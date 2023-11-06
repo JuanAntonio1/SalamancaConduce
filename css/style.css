@@ -11,6 +11,7 @@
 
 html{
 	scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
 	background-color: var(--color-primary);
@@ -231,7 +232,7 @@ a{
 	color: var(--color-txt-n);
     text-align: center;
     text-shadow: var(--color-box-shadow);
-    font-family: Kaisei Tokumin;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-style: normal;
 }
