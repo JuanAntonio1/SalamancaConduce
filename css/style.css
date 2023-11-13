@@ -125,7 +125,7 @@ a{
     width: auto;
     color: var(--color-txt-wit);
     text-align: center;
-    font-family: AmstelvarAlpha;
+    font-family: 'Exo 2', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -229,15 +229,7 @@ a{
     display: flex;
     justify-content: center;
 }
-.title__import{
-    margin-top: 30px;
-	color: var(--color-txt-n);
-    text-align: center;
-    text-shadow: var(--color-box-shadow);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-style: normal;
-}
+
 
 .subtitle__import{
 	color: var(--color-txt-n);
@@ -246,8 +238,7 @@ a{
     margin-right: 15%;
 	text-align: center;
 	margin-top: 10px;
-	text-shadow: var(--color-box-shadow);
-	font-family: Kaisei Tokumin;
+	text-shadow: var(--color-box-shadow); 
 	font-style: normal;
 	font-weight: 800;
 	line-height: normal;
@@ -283,11 +274,12 @@ a{
     margin: 5px;
 }
 .title{
+    margin: 10px;
 	color: var(--color-txt-wit);
     padding: 10px;
     text-align: center;
     text-shadow: var(--color-txt-shadow);
-    font-family: Kaisei Tokumin;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -320,12 +312,11 @@ a{
     border-radius: 30px;
 }
 
-.title__viajecon{
+.title__viajacon{
     margin-bottom: 20px;
     color: var(--color-txt-n);
     text-align: center;
     text-shadow: var(--color-txt-shadow);
-    font-family: Kaisei Tokumin;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -634,9 +625,7 @@ background: var(--color-secundary);
     .titulo{
         width: 250px;
     }
-    .title__import{
-        font-size: 33px;
-    }
+  
     .img__person {
         width: 300px;
         transition: 1s;
