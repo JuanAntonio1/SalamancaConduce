@@ -577,7 +577,7 @@ background: var(--color-secundary);
 
 	.headerPrincipal-nav-link {
 		padding: 10px;
-		color: var(--color-primary);
+		color: var(--color-txt-wit);
 		text-decoration: none;
 		transition: .5s;
 		flex: inherit;
